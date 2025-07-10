@@ -1,0 +1,3 @@
+#Website Assignment
+This project is a simple, responsive multi-page website developed as part of a college assignment. It is built using HTML for the structure, CSS for styling and layout, and JavaScript to add basic interactivity. The website includes several interconnected pages such as a homepage, about page, and contact page, all designed to provide a consistent and user-friendly browsing experience. The layout is fully responsive, ensuring that the site adapts well to different screen sizes, including desktops, tablets, and mobile devices. JavaScript is used to enhance user interaction through features like menu toggles or form validation. Overall, the project demonstrates a foundational understanding of front-end web development and responsive design principles.
+

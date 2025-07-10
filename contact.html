@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "Y636PmHxJ31nV0oyl",
+      });
+   })();
+</script>
+  <!-- Google Fonts: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+
+  <!-- EmailJS SDK (latest v4) -->
+  <script src="https://cdn.emailjs.com/sdk/v4/email.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+      <nav>
+        <div class="logo">ARENA X</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about _us.html">About Us</a></li>
+            <li><a href="Gallary.html">Gallery</a></li>
+            <li><a href="shop_now.html">Shop Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>Feel the pull of the void? Reach out to us.</p>
+
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="title">Subject:</label>
+        <input type="text" id="title" name="title" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+      <div id="form-status"></div>
+    </form>
+  </div>
+<script src="contact.js"></script>
+<footer>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="content">
+                <!-- Newsletter Section -->
+                <section class="newsletter-section">
+                    <h2 class="section-title" align="center">Gaming Newsletter</h2>
+                    <p>Get the latest updates on new games, tournaments, and exclusive offers!</p>
+                    
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input 
+                                type="email" 
+                                class="form-control" 
+                                placeholder="Your Email *" 
+                                required
+                            >
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="subscribe" required>
+                            <label for="subscribe">
+                                Yes, I want gaming news & deals <span class="required">*</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </section>
+                
+                <!-- Contact Section -->
+                <section class="contact-section">
+                    <h2 class="section-title">Contact Us</h2>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">+1 (555) 123-4567</div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <a href="mailto:support@ArenaX.com">support@ArenaX.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                123 Gaming Street<br>
+                                San Francisco, CA 94158
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="divider"></div>
+                    
+                    <!-- Social Media Section -->
+                    <div class="social-section">
+                        <h3 class="social-title">Follow Us</h3>
+                        <div class="social-icons">
+                            <div class="social-icon instagram">
+                                <a href="https://www.instagram.com/ArenaX" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="social-icon facebook">
+                                <a href="https://www.facebook.com/ArenaX" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="social-icon twitter">
+                                <a href="https://www.twitter.com/ArenaX" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="social-icon discord">
+                                <a href="https://discord.gg/ArenaX" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Copyright Notice -->
+    <div class="copyright">
+        <p>&copy; 2024 <strong>ArenaX</strong>. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
